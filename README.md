@@ -16,7 +16,7 @@ main関数を見ると、
 
 ### フロー
 
-1. requirements.pyからライブラリをインストールしてください。
+1. requirements.txtからライブラリをインストールしてください。
   - pytestがインストールされます。
 2. 作業ブランチをわけましょう。
   - input_hand()なら`feature/input`
