@@ -3,6 +3,7 @@
 hands = ["グー", "チョキ", "パー"]
 
 #萱谷のコメント
+#コメント２個目
 def main():
     print("じゃんけん開始")
     # player_hand = input_hand()
