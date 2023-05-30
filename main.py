@@ -2,6 +2,11 @@
 # グー、チョキ、パーをそれぞれ0, 1, 2で表す
 hands = ["グー", "チョキ", "パー"]
 
+def input_hand():
+    print("0: グー")
+    print("1: チョキ")
+    print("2: パー")
+    return int(input("何を出しますか? "))
 
 def main():
     print("じゃんけん開始")
