@@ -12,6 +12,11 @@ def main():
     # print("コンピュータの手: " + hands[computer_hand])
     # print(judge(player_hand, computer_hand))
 
+#コンピュータの出す手をランダムで返す関数
+def random_hand():
+    import random
+    return random.randint(0, 2)
+
 
 if __name__ == "__main__":
     main()
