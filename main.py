@@ -13,6 +13,15 @@ def main():
 
     # nakagawa change3
 
+# 自分とコンピュータの勝敗を決定
+def judge(player_hand, computer_hand):
+    if player_hand == computer_hand:
+        return "引き分け"
+    elif (player_hand == 0 and computer_hand == 1) or (player_hand == 1 and computer_hand == 2) or (player_hand == 2 and computer_hand == 0):
+        return "勝ち"
+    else:
+        return "負け"
+
 
 if __name__ == "__main__":
     main()
