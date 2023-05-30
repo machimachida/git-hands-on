@@ -11,7 +11,7 @@ def main():
     # print("コンピュータの手: " + hands[computer_hand])
     # print(judge(player_hand, computer_hand))
 
-    # nakagawa change
+    # nakagawa change3
 
 
 if __name__ == "__main__":
